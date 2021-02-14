@@ -13,7 +13,7 @@ type parseResult =
 
 // Parser
 let num = regexParser(Js.Re.fromString("\\d*"));
-let expnum = regexParser(Js.Re.fromString("\\d+"));
+let expnum = regexParser(Js.Re.fromString("[-+ ]?\\d+"));
 
 let var = regexParser(Js.Re.fromString("[a-z]"));
 
