@@ -42,7 +42,7 @@ lacks it. Union types are called variant types in Reason.
 
 ## The code
 This is not a Reason tutorial, so I'll focus on just the points I want to make. And 
-it's neither a MathML tutorial, not a completely general MathML tool.
+it's neither a MathML tutorial, nor a completely general MathML tool.
 
 The algorithmic part is in `MathmlParser.re` and the React component in `MathmlViewer.re`.
 The parser uses a parser combinator library to parse simple polynomials, of the form
@@ -62,7 +62,7 @@ let monomial =
 Parsing with a combinator library is quite easy, but what you get back as result is ugly
 and depends on the shape of the compositions used to construct the grammar. Not useful to
 work with, and not stable, since it changes with any rearrangement of the grammar.
-That's why an AST for the polynomials is described.
+That's why an AST for the polynomials is defined.
 
 ```reason
 type mathmlPrim =
