@@ -17,7 +17,7 @@ the OO paradigm, but I didn't see anything transferring to Reason, and it's 2021
 believe people should invest a lot on OO.
 
 Even though it is useful to keep in mind the OCaml origins, I couldn't try out 
-leveraging any OCaml library (OCaml has a code repository called OPAN).
+leveraging any OCaml library (OCaml has a code repository called OPAM).
 This needs more Reason-fu than I have. And people don't 
 usually learn anything else than Java, nowadays, so I'll just treat it as a new and 
 interesting language (myself, I have had the opportunity to play a lot with many
